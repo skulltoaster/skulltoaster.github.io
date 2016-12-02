@@ -294,11 +294,153 @@ Guitarist Justin Lee Brannan (Most Precious Blood) is the current <a href="http:
 	<BR><BR>
 	
 	 - Support Skull Toaster on <a href="http://www.patreon.com/skulltoaster">Patreon</a>!<BR><BR>
+		
+	<HR>
 	 	 
-	 <blockquote class="twitter-video" data-lang="en"><p lang="en" dir="ltr">Q 1934: MOMENT OF METAL #183: (sponsored by <a href="https://twitter.com/S_Glover">@S_Glover</a>) <a href="https://t.co/HyvBU2SFyE">pic.twitter.com/HyvBU2SFyE</a></p>&mdash; SKULL TOASTER (@skulltoaster) <a href="https://twitter.com/skulltoaster/status/736300842773549057">May 27, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-	 
-	 <blockquote class="twitter-video" data-lang="en"><p lang="en" dir="ltr">#1898: MOMENT OF METAL #176 (with <a href="https://twitter.com/Petkau">@Petkau</a>, and sponsored by @FVS_Metalhead) - Name the band and song! <a href="https://t.co/yNmY4KvwNW">pic.twitter.com/yNmY4KvwNW</a></p>&mdash; SKULL TOASTER (@skulltoaster) <a href="https://twitter.com/skulltoaster/status/718551817563607044">April 8, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-	
+	<div id='product-component-b8973191ef2'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'skulltoaster.myshopify.com',
+      apiKey: '1a50c9244586a3e515dd9759b47e3bd7',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [9615307402],
+        node: document.getElementById('product-component-b8973191ef2'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "variantId": "all",
+    "contents": {
+      "variantTitle": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#040c00",
+        ":hover": {
+          "background-color": "#071400"
+        },
+        "border-radius": "0px",
+        ":focus": {
+          "background-color": "#071400"
+        }
+      },
+      "compareAt": {
+        "font-size": "12px"
+      }
+    }
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "background-color": "#040c00",
+        ":hover": {
+          "background-color": "#071400"
+        },
+        "border-radius": "0px",
+        ":focus": {
+          "background-color": "#071400"
+        }
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "variantTitle": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#040c00",
+        ":hover": {
+          "background-color": "#071400"
+        },
+        "border-radius": "0px",
+        ":focus": {
+          "background-color": "#071400"
+        }
+      }
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#040c00",
+        ":hover": {
+          "background-color": "#071400"
+        },
+        ":focus": {
+          "background-color": "#071400"
+        }
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+		
 	<HR>
 
 <p>Some great people help write the nightly email newsletter.</p>

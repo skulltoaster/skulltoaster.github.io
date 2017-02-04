@@ -1,5 +1,5 @@
 # Music
-## A collection of music I've received from some wonderful people.
+This is a running collection of music I've received from some wonderful people on Bandcamp, put together in one place for easy linking / sharing / loving. 
 
 'Chrome Death OS'T by **VHS Glitch** - thanks Leyla! 
 https://vhsglitch.bandcamp.com/album/chrome-death-ost
